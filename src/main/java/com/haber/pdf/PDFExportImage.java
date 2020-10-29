@@ -169,15 +169,15 @@ public class PDFExportImage {
     }
 
     public static void main(String[] args) throws IOException {
-        String outDirPath = "/Users/haber/Documents/church/礼仪周刊/丙年-2019/复活期第六主日";
-        String filePath = outDirPath + "/20190526复活期第六主日周刊曲线版.pdf";
+//        String outDirPath = "C:\\Users\\songpanfei\\Desktop\\职称";
+//        String filePath = "C:\\Users\\songpanfei\\Desktop\\中级职称自传.pdf";
 
 
-//        String filePath = "/Users/haber/Documents/church/礼仪周刊/乙年-2018/圣家节/";
-//        String[] fileNames = new String[]{filePath+"20171231圣家节周刊曲线版.pdf-9.jpg",filePath+"20171231圣家节周刊曲线版.pdf-10.jpg"};
-//        mergeImage(fileNames, 1, filePath + "20171231圣家节周刊曲线版.pdf-9-0.jpg");
+        String filePath = "C:\\Users\\songpanfei\\Desktop\\职称\\中级职称自传-图片\\";
+        String[] fileNames = new String[]{filePath+"0001.jpg",filePath+"0002.jpg", filePath+"0003.jpg",filePath+"0004.jpg",filePath+"0005.jpg",filePath+"0006.jpg"};
+        mergeImage(fileNames, 2, filePath + "final.jpg");
 
-        setup(filePath, outDirPath);
+//        setup(filePath, outDirPath);
 //        BufferedImage bi = ImageIO.read(new File("/Users/haber/Downloads/test.jpg"));
 //        cut(bi, outDir + "/test-1.jpg",0 , 0, bi.getWidth()/2, bi.getHeight());
 //        cut(bi, outDir + "/test-2.jpg",bi.getWidth()/2 , 0, bi.getWidth()/2, bi.getHeight());
